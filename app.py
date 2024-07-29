@@ -2,14 +2,14 @@ import requests
 import streamlit as st
 
 st.set_page_config(
-    page_title="Star Hub",
+    page_title="Star Zone",
     page_icon="icon.png",
     menu_items={
-        "About":"Welcome to StarHub, your ultimate destination for celebrity information.Stay informed and entertained with comprehensive insights into the lives and careers of celebrities around the world."
+        "About":"Welcome to Star Zone, your ultimate destination for celebrity information.Stay informed and entertained with comprehensive insights into the lives and careers of celebrities around the world."
     }
 )
 
-st.write("<h2 style='color:#77E4C8;font-size:31px;'>Discover Everything About Your Favorite Celebrities.</h2>",unsafe_allow_html=True)
+st.write("<h2 style='color:#77E4C8;font-size:31px;'>Discover Your Favorite Celebrities.</h2>",unsafe_allow_html=True)
 
 name=st.text_input("Enter Celebrity Name",placeholder="the rock")
 
